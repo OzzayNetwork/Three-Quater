@@ -236,12 +236,12 @@ ul {
 }
 
 .section-overlay:before {
-    position: absolute;
+    position: fixed;
     content: '';
     right: 0;
     top: 0;
     height: 100%;
-    border-top: 500px solid #EC1C24;
+    border-top: 500px solid #4a2675;
     border-left: 470px solid transparent;
     opacity: .35;
     z-index: -1
@@ -269,7 +269,7 @@ ul {
     left: 0;
     top: 0;
     height: 100%;
-    border-top: 500px solid #3140fc;
+    border-top: 500px solid #4a2675;
     border-right: 470px solid transparent;
     z-index: -1
 }
@@ -280,7 +280,7 @@ ul {
     left: 0;
     top: 0;
     height: 100%;
-    border-bottom: 500px solid #3140fc;
+    border-bottom: 500px solid #4a2675;
     border-right: 470px solid transparent;
     z-index: -1
 }
@@ -329,7 +329,7 @@ ul {
     left: 0;
     top: 0;
     height: 100%;
-    border-top: 230px solid #3140fc;
+    border-top: 230px solid #4a2675;
     border-right: 240px solid transparent;
     opacity: .1;
     z-index: -1;
@@ -343,7 +343,7 @@ ul {
     left: 0;
     top: 0;
     height: 100%;
-    border-bottom: 230px solid #3140fc;
+    border-bottom: 230px solid #4a2675;
     border-right: 240px solid transparent;
     opacity: .1;
     z-index: -1;
@@ -830,7 +830,7 @@ ul {
     left: 0;
     top: 0;
     height: 100%;
-    border-top: 535px solid #EC1C24;
+    border-top: 535px solid #4a2675;
     border-right: 280px solid transparent;
     opacity: .35;
     z-index: 1
@@ -862,7 +862,7 @@ ul {
     top: 0;
     height: 100%;
     width: 31%;
-    border-top: 172px solid #4a2675;
+    border-top: 172px solid #ec1c24;
     border-right: 70px solid transparent
 }
 
@@ -1118,7 +1118,8 @@ ul {
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
-    z-index: 1
+    z-index: 1;
+    background-attachment: fixed;
 }
 
 .work-area:before {
@@ -2122,7 +2123,7 @@ ul {
 }
 
 .header-area.two {
-    background-color: #3140fc
+    background-color: #4a2675
 }
 
 .header-area.two:before {
@@ -2144,7 +2145,7 @@ ul {
 }
 
 .main-nav.two.menu-shrink {
-    background-color: #3140fc
+    background-color: #4a2675
 }
 
 .main-nav.two nav .navbar-nav {
@@ -2192,7 +2193,7 @@ ul {
 }
 
 .main-nav.two .side-nav .nav-search .centered #search-box form .btn {
-    background-color: #3140fc
+    background-color: #4a2675
 }
 
 .main-nav.two .side-nav .nav-search .centered #search-box form .btn:hover {
@@ -2244,7 +2245,7 @@ ul {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #3140fc;
+    background-color: #4a2675;
     opacity: .85
 }
 
@@ -2302,11 +2303,11 @@ ul {
 
 .about-area.two .about-content ul:hover i {
     color: #fff;
-    background-color: #3140fc
+    background-color: #4a2675
 }
 
 .about-area.two .about-content ul li i {
-    color: #3140fc
+    color: #4a2675
 }
 
 .about-area.two .about-img {
@@ -2332,7 +2333,7 @@ ul {
     width: 150px;
     height: 150px;
     border-radius: 0%;
-    background-color: #3140fc;
+    background-color: #4a2675;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     top: 30%;
@@ -2355,7 +2356,7 @@ ul {
 }
 
 .work-area.two:before {
-    background-color: #3140fc;
+    background-color: #4a2675;
     opacity: .8
 }
 
@@ -2384,11 +2385,11 @@ ul {
 }
 
 .work-area.two .video-wrap .js-modal-btn:before {
-    background-color: #3140fc
+    background-color: #4a2675
 }
 
 .work-area.two .video-wrap .js-modal-btn:after {
-    background-color: #3140fc
+    background-color: #4a2675
 }
 
 .work-area.two .video-wrap .js-modal-btn:hover {
@@ -2409,11 +2410,11 @@ ul {
 }
 
 .work-area.two .work-item:hover {
-    background-color: #3140fc
+    background-color: #4a2675
 }
 
 .work-area.two .work-item ul li i {
-    color: #3140fc
+    color: #4a2675
 }
 
 .services-area.two {
@@ -2426,16 +2427,16 @@ ul {
 }
 
 .services-area.two .services-item i {
-    color: #3140fc
+    color: #4a2675
 }
 
 .services-area.two .services-item .services-btn {
-    color: #3140fc;
-    border-bottom: 1px solid #3140fc
+    color: #4a2675;
+    border-bottom: 1px solid #4a2675
 }
 
 .services-area.two .services-item.active {
-    background-color: #3140fc
+    background-color: #4a2675
 }
 
 .services-area.two .services-item.active i {
@@ -2508,7 +2509,7 @@ ul {
     opacity: 0;
     z-index: 0;
     border-left: 165px solid transparent;
-    border-top: 155px solid #3140fc;
+    border-top: 155px solid #ec1c24;
     border-right: unset;
     right: 20px;
     left: unset;
@@ -2519,7 +2520,7 @@ ul {
     opacity: 0;
     z-index: 0;
     border-left: 165px solid transparent;
-    border-bottom: 155px solid #3140fc;
+    border-bottom: 155px solid #4a2675;
     border-right: unset;
     right: 20px;
     left: unset;
@@ -2590,7 +2591,7 @@ ul {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #3140fc;
+    background-color: #4a2675;
     opacity: .8
 }
 
@@ -2640,7 +2641,7 @@ ul {
 }
 
 .testimonials-area.two .owl-prev {
-    color: #3140fc !important;
+    color: #4a2675 !important;
     background-color: #fff !important;
     border-radius: 50% !important
 }
@@ -2651,7 +2652,7 @@ ul {
 }
 
 .testimonials-area.two .owl-next {
-    color: #3140fc !important;
+    color: #4a2675 !important;
     background-color: #fff !important;
     border-radius: 50% !important
 }
@@ -2678,7 +2679,7 @@ ul {
 }
 
 .counter-area.two .card-overlay-two:before {
-    border-top: 135px solid #3140fc;
+    border-top: 135px solid #4a2675;
     border-right: 130px solid transparent;
     opacity: .2;
     z-index: 1;
@@ -2686,7 +2687,7 @@ ul {
 }
 
 .counter-area.two .card-overlay-two:after {
-    border-bottom: 135px solid #3140fc;
+    border-bottom: 135px solid #4a2675;
     border-right: 130px solid transparent;
     opacity: .2;
     z-index: 1;
@@ -2757,7 +2758,7 @@ ul {
     font-weight: 600;
     padding: 15px 15px 15px 40px;
     background-color: #f9faff;
-    color: #3140fc
+    color: #4a2675
 }
 
 .faq-item .accordion li a:hover {
@@ -2787,7 +2788,7 @@ ul {
     border-radius: 5px;
     line-height: 100px;
     color: #fff;
-    background-color: #3140fc;
+    background-color: #4a2675;
     font-size: 40px;
     margin-bottom: 18px
 }
@@ -2844,7 +2845,7 @@ ul {
     border-radius: 50%;
     top: 8px;
     left: -15px;
-    background-color: #3140fc
+    background-color: #4a2675
 }
 
 .pricing-item ul li:last-child {
@@ -2852,13 +2853,13 @@ ul {
 }
 
 .pricing-item.active {
-    background-color: #3140fc;
+    background-color: #4a2675;
     padding-top: 50px;
     padding-bottom: 50px
 }
 
 .pricing-item.active i {
-    color: #3140fc;
+    color: #4a2675;
     background-color: #fff
 }
 
@@ -2879,7 +2880,7 @@ ul {
 }
 
 .pricing-item.active .common-btn {
-    color: #3140fc;
+    color: #4a2675;
     background-color: #fff
 }
 
@@ -2938,7 +2939,7 @@ ul {
 }
 
 .team-area.two .team-item .bottom ul li a {
-    background-color: #3140fc
+    background-color: #4a2675
 }
 
 .team-area.two .team-item .bottom ul li a:hover {
@@ -2946,7 +2947,7 @@ ul {
 }
 
 .team-area.two .team-item .bottom h3 a:hover {
-    color: #3140fc
+    color: #4a2675
 }
 
 .blog-area.two {
@@ -2959,20 +2960,20 @@ ul {
 }
 
 .blog-area.two .blog-item ul li i {
-    color: #3140fc
+    color: #4a2675
 }
 
 .blog-area.two .blog-item ul li a:hover {
-    color: #3140fc
+    color: #4a2675
 }
 
 .blog-area.two .blog-item h3 a:hover {
-    color: #3140fc
+    color: #4a2675
 }
 
 .blog-area.two .blog-item .blog-btn {
-    color: #3140fc;
-    border-bottom: 1px solid #3140fc
+    color: #4a2675;
+    border-bottom: 1px solid #4a2675
 }
 
 .blog-area.two .blog-item .blog-btn:hover {
@@ -2981,17 +2982,17 @@ ul {
 }
 
 .blog-area.two .blog-side-item ul li i {
-    color: #3140fc
+    color: #4a2675
 }
 
 .blog-area.two .blog-side-item ul li h4 a:hover {
-    color: #3140fc
+    color: #4a2675
 }
 
 .blog-area.two .blog-side-item ul li .blog-btn {
     display: inline-block;
-    color: #3140fc;
-    border-bottom: 1px solid #3140fc;
+    color: #4a2675;
+    border-bottom: 1px solid #4a2675;
     font-weight: 600;
     font-size: 14px
 }
@@ -3016,7 +3017,7 @@ ul {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #3140fc;
+    background-color: #4a2675;
     opacity: .8
 }
 
@@ -3092,11 +3093,11 @@ ul {
 }
 
 .footer-area.two {
-    background-color: #3140fc
+    background-color: #4a2675
 }
 
 .footer-area.two .footer-item .footer-logo ul li a {
-    color: #3140fc;
+    color: #4a2675;
     background-color: #fff
 }
 
@@ -3124,7 +3125,7 @@ ul {
 }
 
 .footer-area.two .copyright-area {
-    background-color: #3140fcd1
+    background-color: #4a2675d1
 }
 
 .footer-area.two .copyright-area p a {
@@ -5935,6 +5936,7 @@ ul {
 }
 
 .buy-now-btn {
+    display: none !important;
     right: 20px;
     z-index: 99;
     top: 50%;
@@ -5958,7 +5960,8 @@ ul {
     width: 15px;
     position: absolute;
     -webkit-transform: translateY(-50%);
-    transform: translateY(-50%)
+    transform: translateY(-50%);
+    display: none !important;
 }
 
 .buy-now-btn:hover {
