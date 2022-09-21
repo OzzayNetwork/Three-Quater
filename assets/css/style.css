@@ -850,8 +850,8 @@ ul {
 
 .logo-area {
     background-color: #fcf9f7;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     position: relative
 }
 
@@ -862,13 +862,15 @@ ul {
     top: 0;
     height: 100%;
     width: 31%;
-    border-top: 172px solid #ec1c24;
-    border-right: 70px solid transparent
+    border-top: 124px solid #ec1c24;
+    border-right: 70px solid transparent;
+    z-index: 200
+    ;
 }
 
 .logo-area .logo-text {
     position: relative;
-    z-index: 1
+    z-index: 200
 }
 
 .logo-area .logo-text h3 {
@@ -887,11 +889,19 @@ ul {
 }
 
 .logo-area .logo-item img {
-    max-width: 65px;
+    /* max-width: 65px; */
     margin-left: auto;
     margin-right: auto;
     -webkit-transition: .5s all ease;
-    transition: .5s all ease
+    transition: .5s all ease;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+}
+.pr-75{
+    padding-right: 75px !important;
 }
 
 .about-area .about-content {
