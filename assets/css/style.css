@@ -155,7 +155,7 @@ ul {
 
 .section-title .sub-title {
     display: inline-block;
-    color: #ffffff85;
+    color: #c92d32;
     font-weight: 600;
     margin-bottom: 10px
 }
@@ -867,6 +867,9 @@ ul {
     z-index: 200
     ;
 }
+.text-left{
+    text-align: left !important;
+}
 
 .logo-area .logo-text {
     position: relative;
@@ -1546,13 +1549,13 @@ ul {
 
 .team-item:hover .card-overlay:before {
     opacity: .5;
-    right: 0;
+    left: 0;
     visibility: visible
 }
 
 .team-item:hover .card-overlay:after {
     opacity: .5;
-    right: 0;
+    left: 0;
     visibility: visible
 }
 
@@ -1622,9 +1625,10 @@ ul {
     z-index: 0;
     border-left: 125px solid transparent;
     border-right: unset;
-    right: 20px;
-    left: unset;
-    visibility: hidden
+    left: -20px;
+    right: unset;
+    visibility: hidden;
+    scale: -1;
 }
 
 .team-item .card-overlay:after {
@@ -1632,10 +1636,26 @@ ul {
     z-index: 0;
     border-left: 125px solid transparent;
     border-right: unset;
-    right: 20px;
-    left: unset;
-    visibility: hidden
+    left: -20px;
+    right: unset;
+    visibility: hidden;
+    scale: -1;
 }
+.side-note{
+    background-color: #fcf9f7;
+    color: #607d8b;
+    font-size: 13px;
+    height: 300px;
+    position: relative;
+}
+.bg-side-note{
+    background-color: #fcf9f7;
+}
+.side-note h3 a{
+    color:#441b72;
+    font-weight: 500;
+}
+
 
 .testimonials-area {
     background-image: url(../img/testimonials-bg.png);
@@ -5977,4 +5997,48 @@ ul {
 .buy-now-btn:hover {
     color: #fff;
     background-color: #94be5d
+}
+.product-item{
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.side-note p{
+    display: -webkit-box;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+}
+.side-note::before{
+    position: absolute;
+    left: -20px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid #fbf9f7;
+    border-bottom: 20px solid transparent;
+}
+
+.picture-right .side-note::before{
+    position: absolute;
+    right: -20px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid #fbf9f7;
+    border-bottom: 20px solid transparent;
+    left: revert;
+    z-index: 20;
+    scale: -1;
+}
+.nav-pills .nav-link{
+    font-size: 14px;
+    border-radius: 0;
+    color: #441b72d1;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background-color: #441b72;  
 }
