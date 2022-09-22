@@ -4079,7 +4079,7 @@ max-width: 100% !important;
 }
 
 .main-nav.four.menu-shrink {
-    background: #EC1C24
+    background: #4a2675
 }
 
 .main-nav.four nav .navbar-nav .nav-item a {
@@ -4089,7 +4089,7 @@ max-width: 100% !important;
 .main-nav.four nav .navbar-nav .nav-item a:hover,
 .main-nav.four nav .navbar-nav .nav-item a:focus,
 .main-nav.four nav .navbar-nav .nav-item a.active {
-    color: #4a2675
+    color: #d4baf5
 }
 
 .main-nav.four .side-nav .nav-search #search-btn {
