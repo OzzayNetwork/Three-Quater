@@ -225,7 +225,7 @@ function toggleTheme() {
 
 
 
-jQuery('.nav-item a').on('click', function(e){
+jQuery('.custom-custom a').on('click', function(e){
     e.preventDefault()
     jQuery(this).addClass('active').parent().siblings().children('a').removeClass('active');
     var clickedId= jQuery(this).attr("id")
