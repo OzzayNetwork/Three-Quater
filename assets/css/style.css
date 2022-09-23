@@ -6090,3 +6090,34 @@ max-width: 100% !important;
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
   background-color: #441b72;  
 }
+.title-bg-motor{
+    background-image: url(../img/products-details/Motor-insurance/title-bg2.jpg)   
+}
+
+.title-bg-personal{
+    background-image: url(../img/products-details/personal-insurance/title-bg2.jpg)   
+}
+
+.title-bg-home{
+    background-image: url(../img/products-details/home-insurance/title-bg2.jpg)   
+}
+
+.title-bg-health{
+    background-image: url(../img/products-details/health-insurance/title-bg2.jpg)   
+}
+
+.title-bg-combined{
+    background-image: url(../img/products-details/combined-insurance/title-bg2.jpg)   
+}
+
+.title-bg-key{
+    background-image: url(../img/products-details/key-insurance/title-bg2.jpg)   
+}
+
+.title-bg-property{
+    background-image: url(../img/products-details/property-insurance/title-bg2.jpg)   
+}
+
+.title-bg-workman{
+    background-image: url(../img/products-details/workman-insurance/title-bg2.jpg)   
+}
