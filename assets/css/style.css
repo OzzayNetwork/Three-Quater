@@ -6133,6 +6133,46 @@ max-width: 100% !important;
     background-image: url(../img/products-details/agriculture-insurance/title-bg2.jpg)   
 }
 
+.title-bg-endowment{
+    background-image: url(../img/products-details/endowment-insurance/title-bg2.jpg)   
+}
+
 .title-bg-cyber{
     background-image: url(../img/products-details/cyber-insurance/title-bg2.jpg)   
+}
+
+.title-bg-education{
+    background-image: url(../img/products-details/education-insurance/title-bg2.jpg)   
+}
+
+.title-bg-whole{
+    background-image: url(../img/products-details/whole-insurance/title-bg2.jpg)   
+}
+
+.title-bg-credit{
+    background-image: url(../img/products-details/credit-insurance/title-bg2.jpg)   
+}
+
+.title-bg-pension{
+    background-image: url(../img/products-details/pension-insurance/title-bg2.jpg)   
+}
+
+#map{
+    height: calc(100% - 30px) !important;
+}
+.fw-semibold{
+    font-weight: 600 !important;
+}
+.font-20px{
+    font-size: 20px !important;
+}
+
+.font-30px{
+    font-size: 30px !important;
+}
+.text-pink{
+    color: #c92d32 !important;
+}
+.text-13{
+    font-size: 13px !important;
 }

@@ -241,6 +241,10 @@ jQuery('.custom-custom a').on('click', function(e){
     if(clickedId==="Speciality-insurance"){
         jQuery('.insurance-category.speciality-insurance').removeClass('d-none').siblings('.insurance-category').addClass('d-none')
     }
+
+    if(clickedId==="life-insurance"){
+      jQuery('.insurance-category.life-insurance').removeClass('d-none').siblings('.insurance-category').addClass('d-none')
+  }
 })
 (function () {
   if (localStorage.getItem("inva_theme") === "theme-dark") {
