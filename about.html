@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="assets/css/theme-dark.css">
 
     <link rel="stylesheet" href="assets/css/theme-dark.css">
-    <title>Three Quater Insurance Agency - About Us</title>
+    <title>Three Quarter Insurance Agency - About Us</title>
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
 </head>
 
@@ -344,7 +344,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-6">
-                    <div class="services-item card-overlay active">
+                    <div class="services-item card-overlay ">
                         <i class="bx bx-list-check"></i>
                         <h3>
                             <a href="#">Responsibility</a>
@@ -355,7 +355,7 @@
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
-                    <div class="services-item card-overlay">
+                    <div class="services-item card-overlay active">
                         <i class="bx bx-star"></i>
                         <h3>
                             <a href="#">Excellence</a>
@@ -778,9 +778,22 @@
         </div>
         <div class="container">
             <div class="subscribe-wrap">
-                <div class="section-title two">
+                <div class="section-title two mb-0">
                     <h2>Here is why we consider our selves as the Best</h2>
-                    <p>We believe that insurance needs differs from person to person hence we provide sound, informed advice and policies based on your unique needs.</p>
+                    <div class="owl-carousel2 owl-theme owl-carousel">
+                        <div class="paragraph-item text-left">
+                            <p>We consider you to be part of our Business and family</p>
+                        </div>
+
+                        <div class="paragraph-item text-left">
+                            <p>We guarantee top notch service and unmatched assistance</p>
+                        </div>
+
+                        <div class="paragraph-item text-left">
+                            <p>Our Products and Services are Customer Centric</p>
+                        </div>
+                        
+                    </div>
                 </div>
                 <form class="newsletter-form d-none" data-toggle="validator">
                     <input type="email" class="form-control" placeholder="Enter Your Email" name="EMAIL" required
@@ -795,7 +808,7 @@
         </div>
     </section>
 
-    <div class="map-area pb-0 mb-0 ">
+    <div class="map-area pb-0 mb-0 d-none ">
         <div class="container p-0 m-0 w-100 max-width-100">
             <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7884308919356!2d36.81524711475399!3d-1.3018642990504692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10e4e7b90ce9%3A0xf66f0db1bdf295eb!2sRenaissance%20Corporate%20Park!5e0!3m2!1sen!2suk!4v1655076227722!5m2!1sen!2suk" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
@@ -948,7 +961,7 @@
         </div>
         <div class="copyright-area">
             <div class="container">
-                <p>Copyright @ three Quater Insurance Agency
+                <p>Copyright @ Three Quarter Insurance Agency
                     
                 </p>
             </div>
@@ -988,6 +1001,30 @@
     <script src="assets/js/smoothscroll.min.js"></script>
 
     <script src="assets/js/custom.js"></script>
+
+    <script>
+        $('.owl-carousel2').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            autoplay:true,
+            autoplayTimeout:6000,
+            autoplayHoverPause:true,
+            dots:false,
+            nav:false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+            })
+    </script>
 </body>
 
 <!-- Mirrored from templates.hibootstrap.com/inva/default/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Sep 2022 14:01:56 GMT -->

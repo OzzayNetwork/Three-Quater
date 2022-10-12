@@ -6176,3 +6176,22 @@ max-width: 100% !important;
 .text-13{
     font-size: 13px !important;
 }
+.paragraph-item{
+    max-width: 100%;
+    margin-left: 0px;
+    margin-right: auto;
+    -webkit-transition: .5s all ease;
+    transition: .5s all ease;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    text-align: left;
+    margin: 0px;
+}
+.paragraph-item p{
+    text-align: left;
+    margin: 0px;
+    margin-left: 0px !important;
+}
