@@ -2146,8 +2146,8 @@ max-width: 100% !important;
 }
 
 .footer-area .copyright-area {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    /* padding-top: 25px; */
+    /* padding-bottom: 25px; */
     text-align: center;
     background-color: #412168c7;
     margin-top: 70px
@@ -6194,4 +6194,21 @@ max-width: 100% !important;
     text-align: left;
     margin: 0px;
     margin-left: 0px !important;
+}
+.runing-text {
+    background: #1E0A39;
+    color: white;
+    text-transform: uppercase;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+    z-index: 10000000;
+    padding: 15px;
+    letter-spacing: 3px;
+    -webkit-box-shadow: 0 -5px 5px rgb(0 0 0 / 20%);
+    box-shadow: 0 -5px 5px rgb(0 0 0 / 20%);
+    font-size: smaller;
 }
