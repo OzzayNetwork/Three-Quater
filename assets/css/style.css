@@ -2150,12 +2150,14 @@ max-width: 100% !important;
     /* padding-bottom: 25px; */
     text-align: center;
     background-color: #412168c7;
-    margin-top: 70px
+    margin-top: 70px;
+    padding-bottom: 2rem;
 }
 
 .footer-area .copyright-area p {
     margin-bottom: 0;
-    color: #fff
+    color: #fff;
+    padding-top: 1rem;
 }
 
 .footer-area .copyright-area p a {
